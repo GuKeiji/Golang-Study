@@ -82,4 +82,3 @@ func (s *ServiceVehicleDefault) SearchByWeightRange(query internal.SearchQuery, 
 	v, err = s.rp.FindByWeightRange(query.FromWeight, query.ToWeight)
 	return
 }
-	
